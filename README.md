@@ -30,7 +30,14 @@ As most of our products are in VueJs so we will highly recommend you use VueJs f
 5. Add "How to run instruction" in the area below
 
 ## How to run?
-To be added by the candidate
+I have deployed it on netlify for your convenience. You can easily check the website without actually running it on local server.
+If you want to run on local server, then,
+Clone the repository
+Go to the frontendtest folder and open terminal
+run command "npm start"
+Web app will be opened on your local server.
+
+Link: https://playful-gaufre-fb35a7.netlify.app/ 
 
 ## Deadline
 Please complete it within 3 days of assignment. 
