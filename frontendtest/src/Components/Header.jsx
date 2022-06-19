@@ -12,9 +12,9 @@ import {
 const Header = () => {
   return (
     <>
-{
-    //Navbar--------------------------------------
-}
+      {
+        //Navbar--------------------------------------
+      }
       <Navbar fixed="top" bg="light" expand="lg">
         <Container fluid>
           <Navbar.Brand href="#">
@@ -102,31 +102,169 @@ const Header = () => {
         </Container>
       </Navbar>
 
-{
-    //Notification--------------------------------
-}
-    <div className="col-md-4 col-11 notice ms-3 ms-md-0">
+      {
+        //Notification--------------------------------
+      }
+      <div className="col-md-4 col-11 notice ms-3 ms-md-0">
         <p>Browse premium images on iStock | 20% off at iStock.</p>
-    </div>
+      </div>
 
-{
-    //ScrollBar for images -----------------------
-}
+      {
+        //ScrollBar for images -----------------------
+      }
       <div className="app ms-3 ms-md-0 ms-lg-0">
         <ul className="hs full no-scrollbar me-3">
-          <li className="item me-1 me-md-2 "><img src="Assets/b1.jpg" alt="ScrollBar" height="110px" width="170px" /><br/><img src="Assets/b2.jpg" alt="ScrollBar" height="110px" width="170px" /></li>
-          <li className="item me-1 me-md-2  "><img src="Assets/b3.jpg" alt="ScrollBar" height="110px" width="170px" /><br/><img src="Assets/b4.jpg" alt="ScrollBar" height="110px" width="170px" /></li>
-          <li className="item me-1 me-md-2 "><img src="Assets/b5.jpg" alt="ScrollBar" height="110px" width="170px" /><br/><img src="Assets/b6.jpg" alt="ScrollBar" height="110px" width="170px" /></li>
-          <li className="item me-1 me-md-2 "><img src="Assets/b7.jpg" alt="ScrollBar" height="110px" width="170px" /><br/><img src="Assets/b8.jpg" alt="ScrollBar" height="110px" width="170px" /></li>
-          <li className="item me-1 me-md-2 "><img src="Assets/b9.jpg" alt="ScrollBar" height="110px" width="170px" /><br/><img src="Assets/b10.jpg" alt="ScrollBar" height="110px" width="170px" /></li>
-          <li className="item me-1 me-md-2 "><img src="Assets/b1.jpg" alt="ScrollBar" height="110px" width="170px" /><br/><img src="Assets/b2.jpg" alt="ScrollBar" height="110px" width="170px" /></li>
-          <li className="item me-1 me-md-2 "><img src="Assets/b3.jpg" alt="ScrollBar" height="110px" width="170px" /><br/><img src="Assets/b4.jpg" alt="ScrollBar" height="110px" width="170px" /></li>
-          <li className="item me-1 me-md-2 "><img src="Assets/b5.jpg" alt="ScrollBar" height="110px" width="170px" /><br/><img src="Assets/b6.jpg" alt="ScrollBar" height="110px" width="170px" /></li>
-          <li className="item me-1 me-md-2 "><img src="Assets/b7.jpg" alt="ScrollBar" height="110px" width="170px" /><br/><img src="Assets/b8.jpg" alt="ScrollBar" height="110px" width="170px" /></li>
-          <li className="item me-1 me-md-2 "><img src="Assets/b9.jpg" alt="ScrollBar" height="110px" width="170px" /><br/><img src="Assets/b10.jpg" alt="ScrollBar" height="110px" width="170px" /></li>
-
+          <li className="item me-1 me-md-2 ">
+            <img
+              src="Assets/b1.jpg"
+              alt="ScrollBar"
+              height="110px"
+              width="170px"
+            />
+            <br />
+            <img
+              src="Assets/b2.jpg"
+              alt="ScrollBar"
+              height="110px"
+              width="170px"
+            />
+          </li>
+          <li className="item me-1 me-md-2  ">
+            <img
+              src="Assets/b3.jpg"
+              alt="ScrollBar"
+              height="110px"
+              width="170px"
+            />
+            <br />
+            <img
+              src="Assets/b4.jpg"
+              alt="ScrollBar"
+              height="110px"
+              width="170px"
+            />
+          </li>
+          <li className="item me-1 me-md-2 ">
+            <img
+              src="Assets/b5.jpg"
+              alt="ScrollBar"
+              height="110px"
+              width="170px"
+            />
+            <br />
+            <img
+              src="Assets/b6.jpg"
+              alt="ScrollBar"
+              height="110px"
+              width="170px"
+            />
+          </li>
+          <li className="item me-1 me-md-2 ">
+            <img
+              src="Assets/b7.jpg"
+              alt="ScrollBar"
+              height="110px"
+              width="170px"
+            />
+            <br />
+            <img
+              src="Assets/b8.jpg"
+              alt="ScrollBar"
+              height="110px"
+              width="170px"
+            />
+          </li>
+          <li className="item me-1 me-md-2 ">
+            <img
+              src="Assets/b9.jpg"
+              alt="ScrollBar"
+              height="110px"
+              width="170px"
+            />
+            <br />
+            <img
+              src="Assets/b10.jpg"
+              alt="ScrollBar"
+              height="110px"
+              width="170px"
+            />
+          </li>
+          <li className="item me-1 me-md-2 ">
+            <img
+              src="Assets/b1.jpg"
+              alt="ScrollBar"
+              height="110px"
+              width="170px"
+            />
+            <br />
+            <img
+              src="Assets/b2.jpg"
+              alt="ScrollBar"
+              height="110px"
+              width="170px"
+            />
+          </li>
+          <li className="item me-1 me-md-2 ">
+            <img
+              src="Assets/b3.jpg"
+              alt="ScrollBar"
+              height="110px"
+              width="170px"
+            />
+            <br />
+            <img
+              src="Assets/b4.jpg"
+              alt="ScrollBar"
+              height="110px"
+              width="170px"
+            />
+          </li>
+          <li className="item me-1 me-md-2 ">
+            <img
+              src="Assets/b5.jpg"
+              alt="ScrollBar"
+              height="110px"
+              width="170px"
+            />
+            <br />
+            <img
+              src="Assets/b6.jpg"
+              alt="ScrollBar"
+              height="110px"
+              width="170px"
+            />
+          </li>
+          <li className="item me-1 me-md-2 ">
+            <img
+              src="Assets/b7.jpg"
+              alt="ScrollBar"
+              height="110px"
+              width="170px"
+            />
+            <br />
+            <img
+              src="Assets/b8.jpg"
+              alt="ScrollBar"
+              height="110px"
+              width="170px"
+            />
+          </li>
+          <li className="item me-1 me-md-2 ">
+            <img
+              src="Assets/b9.jpg"
+              alt="ScrollBar"
+              height="110px"
+              width="170px"
+            />
+            <br />
+            <img
+              src="Assets/b10.jpg"
+              alt="ScrollBar"
+              height="110px"
+              width="170px"
+            />
+          </li>
         </ul>
-        
       </div>
     </>
   );

@@ -3,6 +3,9 @@ import React from "react";
 const Footer = () => {
   return (
     <>
+      {
+        //Footer with 4 Columns -------------------------------
+      }
       <div className="container-fluid mt-5">
         <div className="row foo col-12">
           <div className="fooc1 col-md-5 col-12 mb-3">
@@ -72,8 +75,10 @@ const Footer = () => {
         <div className="row">
           <div className="text-black col-md-6 col-12">
             <p>
-              Download free<span className="text-black-50 ">(Do whatever you want)</span>
-              <span>high-resolution photos.</span><span className="text-black-50">Learn More.</span>
+              Download free
+              <span className="text-black-50 ">(Do whatever you want)</span>
+              <span>high-resolution photos.</span>
+              <span className="text-black-50">Learn More.</span>
             </p>
           </div>
         </div>

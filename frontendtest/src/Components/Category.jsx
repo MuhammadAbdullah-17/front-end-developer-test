@@ -28,9 +28,9 @@ const Category = () => {
         n7: res.data.categories[6],
         n8: res.data.categories[7],
         n9: res.data.categories[8],
-        n10: res.data.categories[9]
+        n10: res.data.categories[9],
       });
-      console.log(res)
+      console.log(res);
     }
 
     getData();

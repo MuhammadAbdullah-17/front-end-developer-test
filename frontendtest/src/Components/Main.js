@@ -11,15 +11,19 @@ const Main = () => {
       <div className="container-fluid">
         <Header />
         {
-            //Breadcrumb without CSS-------------------
+          //Breadcrumb without CSS-------------------
         }
         <Breadcrumb className="mt-5 ms-1">
-          <Breadcrumb.Item className="links" href="unsplash.com">Explore</Breadcrumb.Item>
-          <Breadcrumb.Item className="links" href="unsplash.com">Images</Breadcrumb.Item>
+          <Breadcrumb.Item className="links" href="unsplash.com">
+            Explore
+          </Breadcrumb.Item>
+          <Breadcrumb.Item className="links" href="unsplash.com">
+            Images
+          </Breadcrumb.Item>
           <Breadcrumb.Item active>Food</Breadcrumb.Item>
         </Breadcrumb>
         {
-            //Main Content-----------------------------
+          //Main Content-----------------------------
         }
         <h1 className="fw-bolder col-md-6 col-12 ms-2">
           Food Images and pictures
@@ -32,7 +36,7 @@ const Main = () => {
         </h5>
 
         {
-            //Options Scrollbar------------------------
+          //Options Scrollbar------------------------
         }
         <div className="app ms-3 ms-md-0  ms-lg-0">
           <ul className="hs-b full no-scrollbar">

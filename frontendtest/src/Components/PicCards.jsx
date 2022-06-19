@@ -12,10 +12,10 @@ const PicCards = () => {
       <div className=" mt-5">
         <h5 className="fw-bold">Download Free Food Images</h5>
         <div className="row">
-            <div className="row gy-5">
-              {Slice.map((prod, id) => {
-                return <Cards prodImg={prod.img} />;
-              })}
+          <div className="row gy-5">
+            {Slice.map((prod, id) => {
+              return <Cards prodImg={prod.img} />;
+            })}
           </div>
         </div>
       </div>
